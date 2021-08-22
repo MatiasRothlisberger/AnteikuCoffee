@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+
+}
+/* Body */
+body {
+  
+  font-size: 1.4rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+body a {
+  text-decoration: none;
+}
+
+
+/* Header */
+
+.header__nav {  
+  width: 100%; 
+}
+
+
+header {
+  /* height: 5rem; */
+  margin: 0;
+  position: sticky;
+  top: 0px;
+  background-color: rgba(117, 52, 34, 0.993);
+  border: 1px solid ;
+  font-weight: 900;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+}
+.header__lista {
+  /* display: flex; */
+  list-style-type:none;
+  margin: 0;
+  color: rgb(255, 235, 201);
+  /* justify-content: space-around; */
+  /* width:33rem ; */
+    
+}
+.nav-link {
+  color: rgb(255, 235, 201)!important;
+}
+.header__lista li a {
+  text-decoration: none;
+}
+.header__lista li a:hover {
+  transition: 0.3s;
+  font-size: 1.5rem;
+  color: rgb(255, 235, 201);
+
+
+}
+
+.header__img {
+  height: 45px;
+}
+
+.header__img:hover {
+  transition: 0.3s;
+  height: 50px;
+}
+
+
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content:space-between;
+
+  margin: 0;
+  background-color:rgba(117, 52, 34, 0.993) ;
+  
+}
+
+/* FooterPagos */
+.footer__pagos {
+
+  padding: 1rem;
+  color: rgb(255, 235, 201);
+} 
+
+
+/* FooterRedes */
+.footer__redes {
+  padding: 1rem; 
+  color:rgb(255, 235, 201) ;
+}

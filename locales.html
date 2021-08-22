@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles/stylesGeneral.css" />
+    <link rel="stylesheet" href="Styles/stylesLocales.css">
+  </head>
+  <body>
+    <header>
+      <nav class="header__nav navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img class="header__img" src="./Logos/Logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="header__lista navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link"  href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="promociones.html">Promociones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="locales.html">Locales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <h1 class="main__titulo">Locales</h1>
+
+      <div class="sucursales">
+        <!-- Sucursal Rivadavia -->
+          <div class="sucursal__rivadavia">
+            <h3 class="sucursales__titulos">Rivadavia</h3>
+            <img class="sucursales__img" src="./Cafeterias/photo-1482350325005-eda5e677279b.jpg" alt="">
+            <div class="sucursal__fondo">
+              <div class="sucursal__horarios">
+                <img class="sucursal__icon" src="./Logos/reloj-icon.png" alt="">
+                <p class="sucursal__info">Lun. a Sab. 9:00 - 19:00 /Dom 15:00 a 20:00</p>
+              </div>
+              <div class="sucursal__ubicacion">
+                <img class="sucursal__icon" src="./Logos/marcador-icon (1).png" alt="">
+                <p class="sucursal__info">Rivadavia 2965</p>
+              </div>
+                            <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalRivadavia">
+                Ir a Sucursal
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="modalRivadavia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">UBICACION</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.0896275771647!2d-57.55329648415039!3d-37.99836985240322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dc025784d4b9%3A0xaa440da5bda8273f!2sRivadavia%202965%2C%20B7600GNQ%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1629594008876!5m2!1ses-419!2sar" width="768" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <!-- Sucursal Buenos Aires -->
+          <div>
+            <h3 class="sucursales__titulos">Buenos Aires</h3>
+            <img class="sucursales__img" src="./Cafeterias/photo-1511081692775-05d0f180a065.jpg" alt="">
+            <div class="sucursal__fondo">
+              <div class="sucursal__horarios">
+                <img class="sucursal__icon" src="./Logos/reloj-icon.png" alt="">
+                <p class="sucursal__info">Lun. a Sab. 9:00 - 19:00 /Dom 15:00 a 20:00</p>
+              </div>
+              <div class="sucursal__ubicacion">
+                <img class="sucursal__icon" src="./Logos/marcador-icon (1).png" alt="">
+                <p class="sucursal__info">Av. Buenos Aires 2606</p>
+              </div>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalBuenosAires">
+                  Ir a Sucursal
+                </button>
+  
+                <!-- Modal -->
+                <div class="modal fade" id="modalBuenosAires" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">UBICACION</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.617065655749!2d-57.549977484150084!3d-38.009391553036664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dc21ffcb506d%3A0x7fc8060f6d921cb4!2sBuenos%20Aires%202606%2C%20B7600EET%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1629594702678!5m2!1ses-419!2sar" width="768" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <!-- Sucursal Cordoba -->
+          <div>
+            <h3 class="sucursales__titulos">Cordoba</h3>
+            <img class="sucursales__img" src="./Cafeterias/Cordoba1.jpg" alt="">
+            <div class="sucursal__fondo">
+              <div class="sucursal__horarios">
+                <img class="sucursal__icon" src="./Logos/reloj-icon.png" alt="">
+                <p class="sucursal__info">Lun. a Sab. 9:00 - 19:00 /Dom 15:00 a 20:00</p>
+              </div>
+              <div class="sucursal__ubicacion">
+                <img class="sucursal__icon" src="./Logos/marcador-icon (1).png" alt="">
+                <p class="sucursal__info">Cordoba 1628</p>
+              </div>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCordoba">
+                  Ir a Sucursal
+                </button>
+  
+                <!-- Modal -->
+                <div class="modal fade" id="modalCordoba" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">UBICACION</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.066091629843!2d-57.54856428415025!3d-37.99891885243477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dc04b76c432d%3A0x35f7dae8b41eabd2!2sC%C3%B3rdoba%201628%2C%20B7600DVJ%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1629594663770!5m2!1ses-419!2sar" width="768" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            
+          </div>
+          <div>
+            <H3 class="sucursales__titulos">La Rioja</H3>
+            <img class="sucursales__img" src="./Cafeterias/photo-1534040385115-33dcb3acba5b.jpg" alt="">
+            <div class="sucursal__fondo">
+              <div class="sucursal__horarios">
+                <img class="sucursal__icon" src="./Logos/reloj-icon.png" alt="">
+                <p class="sucursal__info">Lun. a Sab. 9:00 - 19:00 /Dom 15:00 a 20:00</p>
+              </div>
+              <div class="sucursal__ubicacion">
+                <img class="sucursal__icon" src="./Logos/marcador-icon (1).png" alt="">
+                <p class="sucursal__info">La Rioja 1743</p>
+              </div>
+              <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalLaRioja">
+                  Ir a Sucursal
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="modalLaRioja" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.1128031295552!2d-57.553429384150434!3d-37.99782925237222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dc02456d325f%3A0xf3ee874a94da9413!2sLa%20Rioja%201743%2C%20B7600DMO%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1629594588835!5m2!1ses-419!2sar" width="768" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            
+          </div>
+
+          <div>
+            <h3 class="sucursales__titulos">Colon</h3>
+            <img class="sucursales__img" src="./Cafeterias/photo-1598959652545-c0230cdbb01f.jpg" alt="">
+            <div class="sucursal__fondo">
+              <div class="sucursal__horarios">
+                <img class="sucursal__icon" src="./Logos/reloj-icon.png" alt="">
+                <p class="sucursal__info">Lun. a Sab. 9:00 - 19:00 /Dom 15:00 a 20:00</p>
+              </div>
+              <div class="sucursal__ubicacion">
+                <img class="sucursal__icon" src="./Logos/marcador-icon (1).png" alt="">
+                <p class="sucursal__info">Colon 2883</p>
+              </div>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalColon">
+                  Ir a Sucursal
+                </button>
+  
+                <!-- Modal -->
+                <div class="modal fade" id="modalColon" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">UBICACION</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.935382559!2d-57.55509168415023!3d-38.001967652609885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dc1d50b21755%3A0x92ecd6b999aac58c!2sAv.%20Col%C3%B3n%202883%2C%20B7600%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1629594531911!5m2!1ses-419!2sar" width="768" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            
+          </div>
+          
+      </div>
+    </main>
+
+    <footer class="footer">
+      
+      <div class="footer__pagos">
+        <h3>Medios Pagos</h3>
+        <img src="./Logos/Visa Logo.png" alt="Logo Visa" height="25px" />
+        <img src="./Logos/Master Card Logo.png" alt="Logo MasterCard" height="25px"/>
+        <img src="./Logos/A.Expres logo.png" alt="Logo A.Expres" height="25px"/>
+      </div>
+    
+      <div class="footer__redes">
+        <h3>Redes</h3>
+        <img src="./Logos/gorjeo.png" alt="Logo Twitter" height="35"/>
+        <img src="./Logos/facebook.png" alt="Logo Facebook" height="35px" />
+        <img src="./Logos/instagram.png" alt="Logo Instagram" height="35px"/>
+      </div>
+    
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+  </body>
+</html>
