@@ -8,8 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
-    <link rel="stylesheet" href="Styles/stylesContacto.css" />
-    <link rel="stylesheet" href="Styles/stylesGeneral.css">
+    <link rel="stylesheet" href="Stylescss/styles.css">
   </head>
   <body>
     <header>
@@ -43,26 +42,24 @@
       </nav>
     </header>
     <main >
-      <h1 class="main__titulo">CONTACTO</h1>
+
+      <h1 class="titulo">CONTACTO</h1>
       <div class="contacto container d-flex justify-content-center">
-        <form action="" class="main__contacto">
+        <form action="">
           <fieldset class="d-flex flex-column justify-content-center">
-            <div class="contacto1 card  gap-3  p-10 mb-3" style="background-color: rgba(117, 52, 34, 0.993) ">
+            <div class="contacto__consulta card  gap-3  p-10 mb-3">
               <h2 class="text-align-center">Dejanos tu consulta</h2>
               <div class="mb-3 col-lg-8 col-md-6">
                 <label for="exampleFormControlInput1" class="form-label"></label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo Electronico" required>
-              
               </div>
                 <div class="col mb-3 col-lg-8 col-md-6">
                   <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" required>
                 </div>
-              
               <div class="d-flex gap-3  ">
                 <div>
                   <label for="floatingSelect">Tipo de consulta</label>
                 </div>
-                
                 <div>
                   <select class="form-select" aria-label="Default select example">
                     <option value="sucursales">Sucursales</option>
@@ -71,21 +68,18 @@
                   </select>
                 </div>
               </div>
-                    
               <div>
                 <textarea name="texto" cols="25" rows="10" id="texto" placeholder="DEJANOS UN MENSAJE" col></textarea>
               </div>
-              
               <div>
                 <button class="btn btn-dark" type="submit" value="Enviar">Enviar</button>
                 <button class="btn btn-dark" type="reset" value="Borrar">Borrar</button>
-                
               </div>
             </div>
           </fieldset>
         </form>
-        <div class="main__contacto contacto2 card d-flex flex-column gap-3 p-10 mb-3 ">
-          <div class="contacto2__titulo">
+        <div class="contacto__contactanos card d-flex flex-column gap-3 p-10 mb-3 ">
+          <div class="contacto__contactanos--titulo">
             <h2>Contactanos</h2>
             <p>Estamos para ayudarte</p>
           </div>
@@ -127,5 +121,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
   </body>
 </html>

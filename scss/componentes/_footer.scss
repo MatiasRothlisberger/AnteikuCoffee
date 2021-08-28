@@ -1,0 +1,19 @@
+/* Footer */
+.footer {
+  display: flex;
+  justify-content:space-between;
+
+  margin: 0;
+  background-color:$fondo-oscuro ;
+  .footer__pagos {
+
+    padding: 1rem;
+    color: $color-letras;
+  } 
+  .footer__redes {
+    
+    padding: 1rem; 
+    color:$color-letras ;
+  }
+}
+

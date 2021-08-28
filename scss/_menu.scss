@@ -1,0 +1,29 @@
+
+/* Seccion */
+.seccion {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+  color: rgb(114, 74, 5);
+  .seccion__menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: serif;
+    font-size: 1.5rem;
+    gap: 1rem;
+    background: #180f0126;
+    border: solid 0.1px #180f0126;
+    border-radius: 10%;
+    &:hover{
+      transform: scale(.98);
+      box-shadow:0 20px 20px 0px rgba(0,0,0,0.125);
+    }
+    .seccion__img {
+      height: 350px;
+      width: 100%;
+      border-radius: 10%;
+    }
+  }
+}

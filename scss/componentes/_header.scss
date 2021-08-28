@@ -1,0 +1,36 @@
+
+header {
+  margin: 0;
+  position: sticky;
+  top: 0px;
+  background-color: $fondo-oscuro;
+  border: 1px solid ;
+  font-weight: 900;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  .header__nav {  
+    width: 100%;
+    .header__img {
+      height: 45px;
+      &:hover {
+        transition: 0.3s;
+        height: 50px;
+      } 
+    }
+    .header__lista {
+      list-style-type:none;
+      margin: 0;
+      color: $color-letras;
+      .nav-link {
+        color:$color-letras!important;
+        text-decoration: none;
+        &:hover {
+          transition: 0.3s;
+          font-size: 1.5rem;
+          color:$color-letras;
+        }
+      }
+    }
+  }
+}

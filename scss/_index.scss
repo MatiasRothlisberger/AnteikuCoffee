@@ -1,0 +1,50 @@
+  .seccion1 {
+    display: grid;
+    grid-template-areas: 
+      "texto imagen";
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: auto;
+    justify-content: space-evenly;
+    padding: 3rem;
+    margin: 3rem;
+    .seccion1__imagenes {
+      height: 900px;
+      grid-area:imagen ;
+      padding: 4rem; 
+    
+    }
+    .seccion1__texto {
+      font-family: serif;
+      font-size: 2rem;
+      grid-area: texto;
+      padding: 5rem;
+      line-height: 5rem;
+      text-align: center;
+    }
+    
+  }
+  .seccion2 {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    padding: 3rem;
+    gap: 2rem;
+    & a:hover {
+      transition: 2s;
+      transform: scale(1.1);
+      
+      }
+    .seccion2__imagenes {
+      display: flex;
+      flex-direction: column;
+      align-items:baseline;
+      .menu {
+        height:300px;
+        width: 450px;
+        padding: 2rem;
+      }
+    }
+    .section2__texto {
+      text-align: center;
+    }
+  }
+
