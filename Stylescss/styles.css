@@ -39,7 +39,6 @@ main {
     font-size: 6rem;
     color: #755207;
     background-image: url(../Logos/bolsacoffe.jpg);
-    /* height: 25vh; */
     background-size: cover;
     background-position: right;
     padding: 3rem;
@@ -182,6 +181,11 @@ main {
 .sucursales .sucursal__fondo .sucursal__ubicacion .sucursal__info {
   text-align: center;
   font-size: 1.2rem;
+}
+
+.sucursales .sucursal__fondo .btn-primary {
+  background-color: rgba(117, 52, 34, 0.993);
+  border-color: rgba(117, 52, 34, 0.993);
 }
 
 .contacto .contacto__consulta {
