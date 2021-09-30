@@ -7,6 +7,11 @@ html {
   font-size: 1rem;
 }
 /* Body */
+.bodyFix{
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
 body {
   
   font-size: 1.4rem;
@@ -15,10 +20,11 @@ body {
     text-decoration: none;
   }
 } 
-
-main {
+// Main
+main { 
   background: linear-gradient( to right, $fondo1, $fondo2)
 }
+// Titulos
 .titulo  {
   text-align: center;
   font-size: 3rem;

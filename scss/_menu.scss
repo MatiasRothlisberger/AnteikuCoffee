@@ -1,29 +1,24 @@
+.menu {
 
-/* Seccion */
-.seccion {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  gap: 1rem;
-  padding: 2rem;
-  color: rgb(114, 74, 5);
-  .seccion__menu {
+  .menu__producto {
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-family: serif;
-    font-size: 1.5rem;
-    gap: 1rem;
-    background: #180f0126;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: $color-letras;
+    gap: 0.5rem;
+    background: $fondo-oscuro;
     border: solid 0.1px #180f0126;
     border-radius: 10%;
     &:hover{
       transform: scale(.98);
       box-shadow:0 20px 20px 0px rgba(0,0,0,0.125);
     }
-    .seccion__img {
-      height: 350px;
-      width: 100%;
+    .menu__img {
+      max-width: 100%;
       border-radius: 10%;
+      padding: 0.5rem;
     }
   }
 }
